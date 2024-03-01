@@ -11,7 +11,9 @@ public class Calculator {
     // TODO: Create subtract method
 
     // TODO: Create divide method
-
+    static float divide(int a, int b) {
+        return a / b;
+    }
     // TODO: Create exponent method
     static int exponent(int a, int b) {
         return Math.pow(a,b);
